@@ -57,18 +57,18 @@
 	- 実機転送
 		-　実機転送の方法
 
-	- 今後、勉強を続けていくには
-		- 書籍
-			- iOSアプリ開発集中講座
-			- 黒帯本
-		- スクール
-			- スクー
-			- ドッドインストール
-			- RainbowApps
-		- 勉強会
-			- Swift愛好会
-			- Swiftビギナーズ
-			- Akiba.swift
-		- イベント
-			- try!Swift
-			- iOSDC
+- 今後、勉強を続けていくには
+	- 書籍
+		- iOSアプリ開発集中講座
+		- 黒帯本
+	- スクール
+		- スクー
+		- ドッドインストール
+		- RainbowApps
+	- 勉強会
+		- Swift愛好会
+		- Swiftビギナーズ
+		- Akiba.swift
+	- イベント
+		- try!Swift
+		- iOSDC
