@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Top_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hKu-8N-I5w">
                                 <rect key="frame" x="30" y="74" width="315" height="604"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lT-BK-Ikm" customClass="ViewContoller">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lT-BK-Ikm">
                                 <rect key="frame" x="30" y="708" width="315" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="OOW-r2-9AA"/>
@@ -172,7 +172,7 @@
                         <outlet property="uiButton2" destination="4Uk-I9-7o8" id="Avf-qo-PjS"/>
                         <outlet property="uiButton3" destination="iAe-Le-H4S" id="xOj-yn-f6h"/>
                         <outlet property="uiButton4" destination="abp-x4-4pO" id="f34-XJ-agN"/>
-                        <segue destination="lPe-jY-aKP" kind="show" identifier="toResultViewContoller" id="MN5-08-CaQ"/>
+                        <segue destination="lPe-jY-aKP" kind="show" identifier="toResultViewController" id="MN5-08-CaQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Qm-7u-OtE" userLabel="First Responder" sceneMemberID="firstResponder"/>

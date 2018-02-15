@@ -1,5 +1,5 @@
 //
-//  ResultViewContoller.swift
+//  ResultViewController.swift
 //  4taku
 //
 //  Created by Satoru Ohguchi on 2018/02/03.

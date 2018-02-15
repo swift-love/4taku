@@ -1,5 +1,5 @@
 //
-//  QuizViewContoller.swift
+//  QuizViewController.swift
 //  4taku
 //
 //  Created by Satoru Ohguchi on 2018/02/03.
@@ -85,7 +85,7 @@ class QuizViewController: UIViewController {
         } else {
             // Storyboard Segue の Identifier を引数に定義して画面遷移
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                self.performSegue(withIdentifier: "toResultViewContoller", sender: nil)
+                self.performSegue(withIdentifier: "toResultViewController", sender: nil)
             }
         }
     }
