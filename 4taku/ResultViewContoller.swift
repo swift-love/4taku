@@ -12,7 +12,7 @@ class ResultViewController: UIViewController {
 
     // IBOutlet
     @IBOutlet weak var resultImageView: UIImageView!    
-    @IBOutlet weak var resultTextView: UITextView!
+    @IBOutlet weak var resultLabel: UILabel!
     
     // 正解数
     var correct = 0
@@ -21,7 +21,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // 正解数を表示
-        resultTextView.text = "正解数は、\(correct)問でした。お疲れさまでした。"
+        resultLabel.text = "正解数は、\(correct)問でした。お疲れさまでした。"
         
         // 合格・不合格判定
         if correct >= 3 {

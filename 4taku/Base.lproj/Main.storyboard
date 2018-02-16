@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -187,7 +188,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GvZ-ay-KTY">
-                                <rect key="frame" x="30" y="74" width="315" height="474"/>
+                                <rect key="frame" x="30" y="74" width="315" height="342.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GvZ-ay-KTY" secondAttribute="height" multiplier="150:163" id="U7O-k0-3wC"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-zk-uiI">
                                 <rect key="frame" x="30" y="708" width="315" height="40"/>
@@ -201,34 +205,31 @@
                                     <segue destination="V9K-Fi-U0m" kind="show" animates="NO" id="Oyu-mS-e1w"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="コメント表示" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-ec-k5Z">
-                                <rect key="frame" x="30" y="582" width="315" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="DPm-sb-KRL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drp-72-VAd">
+                                <rect key="frame" x="30" y="446.33333333333331" width="315" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GR2-wY-kMx" firstAttribute="trailing" secondItem="GvZ-ay-KTY" secondAttribute="trailing" constant="30" id="55c-uS-09r"/>
                             <constraint firstItem="GvZ-ay-KTY" firstAttribute="top" secondItem="GR2-wY-kMx" secondAttribute="top" constant="30" id="5Eo-hn-7zi"/>
-                            <constraint firstItem="Vsf-ec-k5Z" firstAttribute="leading" secondItem="GR2-wY-kMx" secondAttribute="leading" constant="30" id="B7R-9D-dRh"/>
+                            <constraint firstItem="drp-72-VAd" firstAttribute="top" secondItem="GvZ-ay-KTY" secondAttribute="bottom" constant="30" id="6Eq-b0-A6K"/>
+                            <constraint firstItem="oNf-zk-uiI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="drp-72-VAd" secondAttribute="bottom" constant="30" id="7EQ-7o-Ek5"/>
                             <constraint firstItem="GvZ-ay-KTY" firstAttribute="leading" secondItem="GR2-wY-kMx" secondAttribute="leading" constant="30" id="Ipg-e1-aFd"/>
-                            <constraint firstItem="oNf-zk-uiI" firstAttribute="top" secondItem="Vsf-ec-k5Z" secondAttribute="bottom" constant="26" id="Sn4-hU-mx8" userLabel="戻る.top = Result Text View.bottom + 30"/>
-                            <constraint firstItem="GR2-wY-kMx" firstAttribute="trailing" secondItem="Vsf-ec-k5Z" secondAttribute="trailing" constant="30" id="ZKq-eT-1Kd"/>
+                            <constraint firstItem="drp-72-VAd" firstAttribute="leading" secondItem="GR2-wY-kMx" secondAttribute="leading" constant="30" id="YfT-8z-ttq"/>
                             <constraint firstItem="oNf-zk-uiI" firstAttribute="leading" secondItem="GR2-wY-kMx" secondAttribute="leading" constant="30" id="if4-dV-dtU"/>
                             <constraint firstItem="GR2-wY-kMx" firstAttribute="trailing" secondItem="oNf-zk-uiI" secondAttribute="trailing" constant="30" id="kLP-sI-bZo"/>
                             <constraint firstItem="GR2-wY-kMx" firstAttribute="bottom" secondItem="oNf-zk-uiI" secondAttribute="bottom" constant="30" id="kVm-oh-qni"/>
-                            <constraint firstItem="Vsf-ec-k5Z" firstAttribute="top" secondItem="GvZ-ay-KTY" secondAttribute="bottom" constant="34" id="tE1-vW-Xde" userLabel="Result Text View.top = Result Image View.bottom + 30"/>
+                            <constraint firstItem="GR2-wY-kMx" firstAttribute="trailing" secondItem="drp-72-VAd" secondAttribute="trailing" constant="30" id="zYl-2b-wE0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GR2-wY-kMx"/>
                     </view>
                     <connections>
                         <outlet property="resultImageView" destination="GvZ-ay-KTY" id="DrR-Re-Rg0"/>
-                        <outlet property="resultTextView" destination="Vsf-ec-k5Z" id="1qe-Io-TKe"/>
+                        <outlet property="resultLabel" destination="drp-72-VAd" id="6GG-4h-ACh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yk7-Kd-hNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
