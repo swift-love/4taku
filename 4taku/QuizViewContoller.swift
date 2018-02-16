@@ -16,7 +16,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var uiButton2: UIButton!
     @IBOutlet weak var uiButton3: UIButton!
     @IBOutlet weak var uiButton4: UIButton!
-    @IBOutlet weak var quizQuestion: UITextView!
+    @IBOutlet weak var quizQuestionLabel: UILabel!
     
     // 正誤表示
     @IBOutlet weak var answerImage: UIImageView!
@@ -77,7 +77,7 @@ class QuizViewController: UIViewController {
             questionArray = csvArray[questionCount].components(separatedBy: ",")
             // 表示内容をセット
             quizNumberLabel.text = "第\(questionCount+1)問"
-            quizQuestion.text = questionArray[0]
+            quizQuestionLabel.text = questionArray[0]
             uiButton1.setTitle(questionArray[2], for: .normal)
             uiButton2.setTitle(questionArray[3], for: .normal)
             uiButton3.setTitle(questionArray[4], for: .normal)
