@@ -202,7 +202,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V9K-Fi-U0m" kind="show" animates="NO" id="Oyu-mS-e1w"/>
+                                    <segue destination="hvD-nD-MaA" kind="unwind" unwindAction="unWindSegue:" id="vDf-2n-5Yd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drp-72-VAd">
@@ -233,6 +233,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yk7-Kd-hNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="hvD-nD-MaA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="628" y="-611.08374384236458"/>
         </scene>
