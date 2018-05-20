@@ -20,7 +20,7 @@ Xcode 9.3.1 での動作を確認しています。
 
 - [問題のCSV](etc/quiz.zip)
 
-- [並べる素材](etc/material.zip)
+- [ViewControllerに置く素材](etc/material.zip)
 
 # スライド資料
 
