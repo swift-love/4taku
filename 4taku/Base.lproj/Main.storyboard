@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V9K-Fi-U0m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V9K-Fi-U0m">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,7 +25,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lT-BK-Ikm">
                                 <rect key="frame" x="30" y="708" width="315" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="OOW-r2-9AA"/>
+                                    <constraint firstAttribute="height" constant="40" id="q37-Oy-ULf"/>
                                 </constraints>
                                 <state key="normal" title="スタート" backgroundImage="ButtonIcon">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -37,21 +37,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7lT-BK-Ikm" firstAttribute="top" secondItem="hKu-8N-I5w" secondAttribute="bottom" constant="30" id="1R1-Ln-Via"/>
-                            <constraint firstItem="3xo-8h-fKY" firstAttribute="trailing" secondItem="7lT-BK-Ikm" secondAttribute="trailing" constant="30" id="AOT-jA-aEC"/>
-                            <constraint firstItem="hKu-8N-I5w" firstAttribute="leading" secondItem="3xo-8h-fKY" secondAttribute="leading" constant="30" id="FbT-20-YCV"/>
-                            <constraint firstItem="hKu-8N-I5w" firstAttribute="top" secondItem="3xo-8h-fKY" secondAttribute="top" constant="30" id="JXw-Cy-t3M"/>
-                            <constraint firstItem="7lT-BK-Ikm" firstAttribute="leading" secondItem="3xo-8h-fKY" secondAttribute="leading" constant="30" id="JYd-4w-HBo"/>
-                            <constraint firstItem="3xo-8h-fKY" firstAttribute="bottom" secondItem="7lT-BK-Ikm" secondAttribute="bottom" constant="30" id="eEf-bQ-ItL"/>
-                            <constraint firstItem="7lT-BK-Ikm" firstAttribute="top" secondItem="hKu-8N-I5w" secondAttribute="bottom" constant="30" id="qzW-2U-Hcm"/>
-                            <constraint firstItem="3xo-8h-fKY" firstAttribute="trailing" secondItem="hKu-8N-I5w" secondAttribute="trailing" constant="30" id="uYw-th-dpG"/>
+                            <constraint firstItem="7lT-BK-Ikm" firstAttribute="top" secondItem="hKu-8N-I5w" secondAttribute="bottom" constant="30" id="Gqg-yh-suH"/>
+                            <constraint firstItem="hKu-8N-I5w" firstAttribute="top" secondItem="3xo-8h-fKY" secondAttribute="top" constant="30" id="H82-xd-Waz"/>
+                            <constraint firstItem="3xo-8h-fKY" firstAttribute="trailing" secondItem="7lT-BK-Ikm" secondAttribute="trailing" constant="30" id="LaA-Lr-UvV"/>
+                            <constraint firstItem="3xo-8h-fKY" firstAttribute="bottom" secondItem="7lT-BK-Ikm" secondAttribute="bottom" constant="30" id="O7G-lG-PcD"/>
+                            <constraint firstItem="3xo-8h-fKY" firstAttribute="trailing" secondItem="hKu-8N-I5w" secondAttribute="trailing" constant="30" id="X4I-po-abD"/>
+                            <constraint firstItem="7lT-BK-Ikm" firstAttribute="leading" secondItem="3xo-8h-fKY" secondAttribute="leading" constant="30" id="hKF-RY-iIv"/>
+                            <constraint firstItem="hKu-8N-I5w" firstAttribute="leading" secondItem="3xo-8h-fKY" secondAttribute="leading" constant="30" id="n7B-55-SFd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3xo-8h-fKY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mpd-oZ-UGK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-916" y="-613"/>
+            <point key="canvasLocation" x="-916" y="-613.30049261083741"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="wcl-N7-iw8">
@@ -140,7 +139,6 @@
                             <constraint firstItem="iAe-Le-H4S" firstAttribute="leading" secondItem="vU2-XD-s44" secondAttribute="leading" constant="30" id="1Za-sH-Ihy"/>
                             <constraint firstItem="vU2-XD-s44" firstAttribute="trailing" secondItem="iAe-Le-H4S" secondAttribute="trailing" constant="30" id="5Ka-sk-SDF"/>
                             <constraint firstItem="vU2-XD-s44" firstAttribute="trailing" secondItem="4Uk-I9-7o8" secondAttribute="trailing" constant="30" id="691-3Y-IZx"/>
-                            <constraint firstItem="BGV-Yu-ckf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vFs-Kb-8y1" secondAttribute="bottom" constant="30" id="9sx-b6-Xd7"/>
                             <constraint firstItem="BGV-Yu-ckf" firstAttribute="centerY" secondItem="WKi-pJ-Yal" secondAttribute="centerY" id="EVJ-UG-dde"/>
                             <constraint firstItem="4Uk-I9-7o8" firstAttribute="leading" secondItem="vU2-XD-s44" secondAttribute="leading" constant="30" id="Hca-R3-StJ"/>
                             <constraint firstItem="HqJ-SU-0Oq" firstAttribute="leading" secondItem="vU2-XD-s44" secondAttribute="leading" constant="30" id="L6a-am-Qfn"/>
