@@ -30,7 +30,7 @@ https://love-swift.connpass.com/event/84803/
 
 vol.31でのスライド資料
 
-(更新予定)
+https://speakerdeck.com/ochicchi/swiftai-hao-hui-chu-xin-zhe-hanzuon-vol-dot-31
 
 # Vol.28での資料
 
@@ -38,6 +38,6 @@ Swift入門者むけハンズオン！Swift愛好会 vol28 (2018.2.18実施)
 
 https://love-swift.connpass.com/event/74634/
 
-Vol28でのスライド資料
+Vol.28でのスライド資料
 
 https://speakerdeck.com/ochicchi/swiftai-hao-hui-number-28
