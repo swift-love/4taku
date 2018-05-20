@@ -189,10 +189,8 @@ override func viewDidLoad() {
 
 - これで、ResultViewControllerの設定は終了。
 
-## 動作の確認
+## 動作確認
 
-- 矢印の位置を変更する
+- Xcode の上の方で、「▶」を押して、iPhoneX のシミュレーターを起動して表示を確認する
 
-
-- Xcode の上の方で、iPhoneX のシミュレーターを起動して確認する
-
+![Screen](../PNG/doc02-02-28.png)

@@ -371,3 +371,9 @@
 - ゲーム画面から結果表示画面への Segue を選択し、StoryBoard Segue の Identifier に、toResultViewController と設定する。
 
 ![Screen](../PNG/doc02-02-67.png)
+
+## 動作確認
+
+- Xcode の上の方で、「▶」を押して、iPhoneX のシミュレーターを起動して表示を確認する
+
+![Screen](../PNG/doc02-02-28.png)
