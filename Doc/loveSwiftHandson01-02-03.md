@@ -189,6 +189,12 @@ override func viewDidLoad() {
 
 - これで、ResultViewControllerの設定は終了。
 
+## クイズの問題を取り込む
+
+- Xcodeのプロジェクトにダウンロードしたクイズの問題を取り込む
+
+![Screen](../PNG/doc02-02-28-01.png)
+
 ## 動作確認
 
 - Xcode の上の方で、「▶」を押して、iPhoneX のシミュレーターを起動して表示を確認する
