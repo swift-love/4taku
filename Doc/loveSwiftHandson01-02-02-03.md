@@ -1,4 +1,4 @@
-# クイズアプリの StoryBoard の設定(4/5)
+# クイズアプリの Storyboard の設定(4/5)
 
 ## 結果表示画面の作成
 
@@ -10,15 +10,15 @@
 
 ![Screen](../PNG/doc01-01-05.png)
 
-- ImageView を配置する。Content Mode を、Aspect Fit と指定する。
+- Image View を配置する。Content Mode を、Aspect Fit と指定する。
 
 ![Screen](../PNG/doc02-02-56.png)
 
-- ImageView の制約を設定する。Add new constraints を選択し、上を、30 と設定し、Width と、Height を、300　に指定し、Add 3 Constraints を選択する。
+- Image View の制約を設定する。Add New Constraints を選択し、上を、30 と設定し、Width と、Height を、300　に指定し、Add 3 Constraints を選択する。
 
 ![Screen](../PNG/doc02-02-57.png)
 
-- Align を選択して、Horizontally in Container にチェックを入れて、Add 1 Constraints を選択する。
+- Align を選択して、Horizontally in Container にチェックを入れて、Add 1 Constraint を選択する。
 
 ![Screen](../PNG/doc02-02-58.png)
 
@@ -26,15 +26,15 @@
 
 ![Screen](../PNG/doc02-02-59.png)
 
-- Label の制約を設定する。Add new constraints を選択し、上左右から、30 の位置に配置されるように制約を設定し、Add 3 Constraints を選択する。
+- Label の制約を設定する。Add New Constraints を選択し、上左右から、30 の位置に配置されるように制約を設定し、Add 3 Constraints を選択する。
 
 ![Screen](../PNG/doc02-02-60.png)
 
-- Button を配置し、テキストを「戻る」と変更し、Background を、Buttonicon と指定する。
+- Button を配置し、テキストを「戻る」と変更し、Background を、ButtonIcon と指定する。
 
 ![Screen](../PNG/doc02-02-61.png)
 
-- Button の制約を設定する。一番下のボタンを選択、Add new constraints を選択し、下左右から、30 の位置に配置され、Height を 40 とするように制約を設定し、Add 4 Constraints を選択する。
+- Button の制約を設定する。一番下のボタンを選択、Add New Constraints を選択し、下左右から、30 の位置に配置され、Height を 40 とするように制約を設定し、Add 4 Constraints を選択する。
 
 ![Screen](../PNG/doc02-02-62.png)
 
@@ -42,11 +42,11 @@
 
 ![Screen](../PNG/doc02-02-43.png)
 
-- ImageView を選択して、controlキーを押しながら、右側に表示されたコードに向けて、ドラッグ＆ドロップすると、ウィンドウが表示されるので、resultImageView と指定し、connect を選択する。
+- Image View を選択して、controlキーを押しながら、右側に表示されたコードに向けて、ドラッグ＆ドロップすると、ウィンドウが表示されるので、Nameに「resultImageView」 と指定し、connect を選択する。
 
 ![Screen](../PNG/doc02-02-63.png)
 
-- Label を選択して、controlキーを押しながら、右側に表示されたコードに向けて、ドラッグ＆ドロップすると、ウィンドウが表示されるので、resultLabel と指定し、connect を選択する。
+- Label を選択して、controlキーを押しながら、右側に表示されたコードに向けて、ドラッグ＆ドロップすると、ウィンドウが表示されるので、Nameに「resultLabel」 と指定し、connect を選択する。
 
 ![Screen](../PNG/doc02-02-64.png)
 

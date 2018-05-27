@@ -1,6 +1,6 @@
 # クイズアプリのコードを配置する
 
-StoryBoard の設定が終わったら、画面を動作させるためのプログラムコードを配置する。
+Storyboard の設定が終わったら、画面を動作させるためのプログラムコードを配置する。
 
 ## タイトル画面のプログラムコードの設定(ViewController)
 
@@ -136,10 +136,10 @@ DispatchQueue.main.asyncAfter(deadline: .now() + waitQuestion) {
 }
 ```
 
-- 次に、ViewDidLoad の中に記述を追加する。"override func viewDidLoad()"の中の super.viewDidLoad() の下に以下の記述を追加する。
+- 次に、viewDidLoad の中に記述を追加する。"override func viewDidLoad()"の中の super.viewDidLoad() の下に以下の記述を追加する。
 
 ```
-// 画面表示完了後に動くメソッド
+// 画面が初めて表示されようとするときに動くメソッド
 override func viewDidLoad() {
 	super.viewDidLoad()
 
@@ -169,7 +169,7 @@ override func viewDidLoad() {
 var correct = 0
 ```
 
-- ViewDidLoad の中に記述を追加する。"override func viewDidLoad()"の中の super.viewDidLoad() の下に記述を追加し、以下のようにする。
+- viewDidLoad の中に記述を追加する。"override func viewDidLoad()"の中の super.viewDidLoad() の下に記述を追加し、以下のようにする。
 
 ```
 override func viewDidLoad() {
@@ -197,6 +197,6 @@ override func viewDidLoad() {
 
 ## 動作確認
 
-- Xcode の上の方で、「▶」を押して、iPhoneX のシミュレーターを起動して表示を確認する
+- Xcode の上の方で、「▶」を押して、iPhone X のシミュレーターを起動して表示を確認する
 
 ![Screen](../PNG/doc02-02-28.png)
