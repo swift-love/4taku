@@ -9,7 +9,7 @@
 ## 素材のダウンロード
 
 - 事前に用意している素材をダウンロードする。
-    - [ViewControllerに置く素材](../etc/material.zip)
+    - [画面に表示する画像素材](../etc/material.zip)
     - [問題のCSV](../etc/quiz.zip)
 
 ## 全体的な処理の流れ
