@@ -14,7 +14,7 @@
 
 ここの設定をすると、iPhoneにアプリを転送できるようになる。
 
-- Xcode → Preferences と選んで起動する。
+- Xcode → Preferences と選んで設定画面を表示する。
 
 ![Screen](../PNG/doc00-01-02.png)
 
@@ -30,7 +30,7 @@
 
 ![Screen](../PNG/doc00-01-05.png)
 
-- AppleIDのアカウントを設定し、Sign In を選択する。
+- Apple IDのアカウントを設定し、Sign In を選択する。
 
 ![Screen](../PNG/doc00-01-06.png)
 
@@ -38,24 +38,24 @@
 
 ### 初期設定(2)
 
-行表示をしたほうが見やすいので、行表示を設定する。
+行番号を表示したほうが見やすいので、Line numbers を設定する。
 
-- Xcode → Preferences と選んで起動
+- Xcode → Preferences... と選んで設定画面を表示する。
 
 ![Screen](../PNG/doc00-01-02.png)
 
-- Text Editing の中の Line Number を選択する。
+- Text Editing の中の Editing タブの Line numbers にチェックを入れる。
 
 ![Screen](../PNG/doc00-01-07.png)
 
 ### 初期設定(3)
 
-新しい画面が開く度に新規にWindowが起動するのは見にくくなるので、Double Click Navigation を設定する。
+新しい画面が開く度に新規にWindowが起動するのは見にくくなるので、Double Click Navigation （ダブルクリックしたときの挙動の設定）を変更する。
 
-- Xcode → Preferences と選んで起動する。
+- Xcode → Preferences... と選んで設定画面を表示する。
 
 ![Screen](../PNG/doc00-01-02.png)
 
-- Navigation を選択し、Double Click Navigation の項目を、Users Separate Tab に設定する。
+- Navigation を選択し、Double Click Navigation の項目を、「Users Separate Tab」 に設定する。
 
 ![Screen](../PNG/doc00-01-08.png)
